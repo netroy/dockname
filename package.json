@@ -1,0 +1,12 @@
+{
+  "name": "dockname",
+  "version": "0.0.0",
+  "description": "zero-conf dynamic dns for docker containers",
+  "bin": "bin/dockname",
+  "author": "NetRoY <aditya@netroy.in> (http://netroy.in/)",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "~0.8.0",
+    "native-dns": "~0.4.1"
+  }
+}

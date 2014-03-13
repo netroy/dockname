@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var Dockname = require('../lib/Dockname');
+(new Dockname()).start();
