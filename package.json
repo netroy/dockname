@@ -3,8 +3,20 @@
   "version": "0.0.0",
   "description": "zero-conf dynamic dns for docker containers",
   "bin": "bin/dockname",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "zero-conf",
+    "dns",
+    "docker"
+  ],
   "author": "NetRoY <aditya@netroy.in> (http://netroy.in/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:netroy/dockname.git"
+  },
   "dependencies": {
     "JSONStream": "~0.8.0",
     "native-dns": "~0.4.1"
